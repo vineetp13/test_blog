@@ -54,7 +54,7 @@ gem "nifty-generators", :group => :development
 
 #Begin vineet
 # to specify rails version on heroku
-ruby "2.1.1p76"
+#ruby "2.1.1p76"
 #end vineet
 
 # Use ActiveModel has_secure_password
