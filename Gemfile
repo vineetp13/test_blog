@@ -52,6 +52,13 @@ gem "nifty-generators", :group => :development
 
 #end vineet
 
+#BEGIN VINEET - FOR PRODUCTION
+# Add the following to the Gemfile
+gem 'capistrano'
+gem 'thin'
+gem 'bigdecimal'
+#end vineet
+
 #Begin vineet
 # to specify rails version on heroku
 #ruby "2.1.1p76"
