@@ -8,10 +8,10 @@ set :branch, "master"
 set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 
 #set :server_name, "www.example.com example.com"
-set :server_name, "ec2-52-10-7-237.us-west-2.compute.amazonaws.com"
+set :server_name, "<blank>"
 
 #server 'www.example.com', user: 'deploy', roles: %w{web app db}, primary: true
-server 'ec2-52-10-7-237.us-west-2.compute.amazonaws.com', user: 'deploy', roles: %w{web app db}, primary: true
+server '<blank>', user: 'deploy', roles: %w{web app db}, primary: true
 
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 
